@@ -182,8 +182,8 @@ Employee[] empl = new Employee[maxEmployee];
 int n = 0;
 //reading input File
 try{
-  Scanner sc = new Scanner(new File("1050_Project_05_Input.txt"));
-  while(sc.hasNextLine() && n < maxEmployee){
+  Scanner sc = new Scanner(new File("project5.txt"));
+  while(sc.hasNextLine()          && n < maxEmployee){
    String line = sc.nextLine();
    String[] str = line.split(" ");
    empl[n] = new Employee();
