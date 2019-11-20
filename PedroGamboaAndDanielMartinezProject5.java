@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class Driver {
+public class PedroGamboaAndDanielMartinezProject5 {
 
    static ToolkitBasic tools = new ToolkitBasic();
 
@@ -10,8 +10,8 @@ public class Driver {
       EmployeeParameters emplParams = new EmployeeParameters();
    
    // Access the input and output files
-      final String INPUT_FILE = "Input.txt";
-      final String OUTPUT_FILE = "Output.txt";
+      final String INPUT_FILE = "PedroGamboaAndDanielMartinezInput.txt";
+      final String OUTPUT_FILE = "PedroGamboaAndDanielMartinezOutput.txt";
    
    
       int maxEmployees;
@@ -87,9 +87,9 @@ public class Driver {
          savingsRate,
          nElement);
    
-   // Output all the data to the console and output file
+   // PedroGamboaAndDanielMartinezInput all the data to the console and output file
    // Sorted by the order it was input
-      outputMaster(outputFile, "Input", empl, nElement);
+      outputMaster(outputFile, "PedroGamboaAndDanielMartinezInput", empl, nElement);
    
    // Sort the data by employees names
       sortResult = Employee.selectionSortArrayOfClass(empl, nElement, "Name");
@@ -189,7 +189,7 @@ public class Driver {
    
       String str; // Store headers str to only type once
    
-      str = // Input order
+      str = // PedroGamboaAndDanielMartinezInput order
          "\r\nPrinted in " + order.toLowerCase() +
          " order.\r\n" + "\r\n" +
          // Table title
