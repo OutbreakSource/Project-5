@@ -1,3 +1,27 @@
+/** ###
+
+   @author  Daniel Martinez & Pedro Gamboa
+   
+   Project #5, CS 1050, Section 2
+   
+   This program takes an input file of employees with amount of hours worked and pay rates
+   and calculates the taxes taken from the gross pay to give you the net pay.
+   Then prints the values of the taxes, pay rates, grosspay, net pay and totals of all
+   of them into the console and output file.
+   After this, it then organizes the outputs alphebetically and prints them to the console
+   and outut file.
+   Lastly, it organizes the output by grosspay from largest to smallest and prints
+   them to the console and output file.   
+   
+   "abyssmal" - extremely bad; appaling
+   
+   “Empty your mind.. Be formless.. Shapeless. Like Water. If you put water in a cup.
+   It becomes the cup. You put water in a bottle. It becomes the bottle. 
+   You put it in a teapot.
+   It becomes the teapot. Water can flow or it can crash. Be water my friend.” 
+   - Bruce Lee (1940 - 1973)
+*/
+
 import java.io.*;
 import java.util.Scanner;
 
